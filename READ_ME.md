@@ -6,7 +6,7 @@ Pyronear développe un model d'IA opensource qui detecte des feux de forêts ave
 Les faux positifs arrivent régulièrement avec le modèle YOLO. Le but estt d'optimiser le seuil avec les bons paramètres pour éviter de saturer les pompiers avec des faux positifs. Cela leur fait perdre du temps et retire beeaucoup de crédibilité.
 
 Dans ce repo, on retrouve plusieurs fichiers : 
-- [un notebook](parsing_pyronear.ipynb) contenant nos codes qui nous permettent de traiter les données.
+- [un notebook](main.ipynb) contenant nos codes qui nous permettent de traiter les données.
 - [un fichier csv](sequences_with_fwi.csv) qui recense le nom la position et la date d'un relevé pour chercher les FWI associé.
 - [un dossier](mines_pyronear_data) qui contient les données à traiter.
 
