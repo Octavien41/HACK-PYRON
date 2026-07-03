@@ -1,9 +1,9 @@
 # Pyronear - Sujet 2
-Ce projet consiste à l'amélioration de critère dans la détectin de feus de forêts.
+Ce projet consiste à l'amélioration de critère dans la détection de feux de forêts.
 
-Pyronear développe un model d'IA opensource qui detecte des feux de forêts avec des caméras placés à des points stratégiques. Le programme utilise YOLO pour la détéction de fumé. L'IA produit un score de confiance qui produit ensuite une alerte transmise à la police si ce score dépasse un seil. Ce seuil dépend lui même des conditions et de la probabilité d'incendie qui est tirée d'un score le Fire Warning Indice (FWI). Ce FWI est récupérer via une API. 
+Pyronear développe un model d'IA opensource qui detecte des feux de forêts avec des caméras placés à des points stratégiques. Le programme utilise YOLO pour la détéction de fumé. L'IA produit un score de confiance qui produit ensuite une alerte transmise à la police si ce score dépasse un seil. Ce seuil se corrèle lui même avec la probabilité d'incendie qui est tirée d'un score le Fire Warning Indice (FWI). Ce FWI est récupéré via une API. 
 
-Les faux positifs arrivent régulièrement avec le modèle YOLO. Le but estt d'optimiser le seuil avec les bons paramètres pour éviter de saturer les pompiers avec des faux positifs. Cela leur fait perdre du temps et retire beeaucoup de crédibilité.
+Le but est d'optimiser le seuil avec les bons paramètres pour éviter de saturer les pompiers avec des faux positifs. Cela leur fait perdre du temps et retire beeaucoup de crédibilité.
 
 Dans ce repo, on retrouve plusieurs fichiers : 
 - [un notebook](main.ipynb) contenant nos codes qui nous permettent de traiter les données.
